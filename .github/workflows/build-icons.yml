@@ -29,4 +29,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add apple-touch-icon.png icon-192.png icon-512.png favicon.png
-          git diff --cached --quiet || (git commit -m "Generate correctly sized home screen icons" && git push)
+          git diff --cached --quiet || git commit -m "Generate correctly sized home screen icons"
+          git pull --rebase origin main
+          git push origin HEAD:main
