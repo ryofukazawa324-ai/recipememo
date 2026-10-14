@@ -1,0 +1,21 @@
+{
+  "name": "料理メモ",
+  "short_name": "料理メモ",
+  "start_url": "/recipememo/",
+  "scope": "/recipememo/",
+  "display": "standalone",
+  "background_color": "#faf8f4",
+  "theme_color": "#faf8f4",
+  "icons": [
+    {
+      "src": "/recipememo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/recipememo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
